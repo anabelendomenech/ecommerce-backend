@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 // Escuchar en el puerto especificado
 app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+  console.log('Servidor escuchando en http://localhost:${port}');
 });
  ⁠
 
